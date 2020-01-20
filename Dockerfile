@@ -14,13 +14,13 @@ RUN \
 #install yarn and create a generic react-app project
 WORKDIR /app
 RUN npm install yarn -g
-RUN yarn create react-app docker-react-website-starter
+RUN yarn create react-app docker-react-dungeons-dragons-dice-roller
 
-#copy the quick starter project to replace the generic react-app project
-COPY src/ /app/docker-react-website-starter/src/
-COPY public/ /app/docker-react-website-starter/public/
+#copy the dungeons and dragons app to replace the generic react-app project
+COPY src/ /app/docker-react-dungeons-dragons-dice-roller/src/
+COPY public/ /app/docker-react-dungeons-dragons-dice-roller/public/
 
 #run the server
 EXPOSE 80
-WORKDIR /app/docker-react-website-starter
+WORKDIR /app/docker-react-dungeons-dragons-dice-roller
 CMD ["yarn","start"]

@@ -1,38 +1,50 @@
 /*******************************************
-* B1.js -- About Us
+* B1.js -- Private TextBox
 ********************************************/
 import React from "react";
-
-import TCText from "../components/TCText";
-import image2 from "../images/image2.jpg";
-
+import "../css/site.css";
+import TextArea from "../components/TextArea";
 
 class B1 extends React.Component {
 
+	constructor(props) {
+		super(props);
+		this.state = {
+			textMsg: ''
+		};
+	}
 
-  render() {
-      return (
-         <div style={{margin:"20px"}}>
-		<h2 style={{textAlign:"left"}}>
-			<TCText
-				englishtext={"Our Ficticious Store"} 
-				spanishtext={"Nuestra tienda ficticia"}
-				langprefs={this.props.langprefs} >
-			</TCText>
-	      	</h2>
+        componentDidMount() {
+                const initialText = this.props.initialText;
+                this.setState({textMsg: initialText});
+                this.props.newText(initialText);
+        }
 
-		<div style={{textAlign:"right", width: "400px", margin:"25px"}} >
-			<TCText
-				englishtext={"Since nothing is for sale here, please enjoy these royalty-free pictures from Alaska."}  
-				spanishtext={"Como aquí no hay nada a la venta, disfrute de estas imágenes libres de regalías de Alaska."}
-				langprefs={this.props.langprefs} >
-			</TCText>
-		</div>
+	updateTextArea = (a) => {
+		this.setState({textMsg: a});
+		this.props.newText(a);
+	}
 
-		<img src={image2} alt="oops" style={{maxWidth:"100%", borderRadius:"20px"}}/>
-         </div>
-      );
-  }
+	clearContents = () =>  {
+		var x = "";
+		this.updateTextArea(x);
+		this.props.newText(x);
+	}
+
+	render() {
+		return (
+			<div className="official-background-color official-body" >
+				<h2>Private Messages / Notes</h2>
+
+				<TextArea updateTextArea={this.updateTextArea} textMsg={this.state.textMsg} >
+				</TextArea>
+				<p></p>
+				<button 
+					onClick={this.clearContents} 
+					className="official-menu-buttonstyle">CLEAR</button> 
+			</div>
+		);
+	}
 }
 
 export default B1;

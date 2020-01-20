@@ -5,7 +5,11 @@ import React from 'react';
 
 export function  Logo1 () {
 	return (
-		  <img src={ require('../images/logo1.jpg') } alt="whoooooops." />
+	<img 
+		style={{pointerEvents:'none'}}
+		className="offical-background-color offical-logo" 
+		src={require('../images/logo1.png') } alt="bad." 
+	/>
 	);
 }
 

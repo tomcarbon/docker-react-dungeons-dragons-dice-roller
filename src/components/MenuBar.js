@@ -2,107 +2,39 @@
  * MenuBar.js
  * ****************************************/
 import React from 'react';
-import TCText from './TCText';
+import Logo1 from './Logo1';
+import "../css/site.css";
 
 class MenuBar extends React.Component {
 
 	render() {
 		var handleToUpdate = this.props.handleToUpdate;
 		return (
-			<div style={{height:"auto", backgroundColor:"#f0f8ff" }} >
+			<div className="official-background-color official-menubar" >
+				<Logo1 />
 				<span>
 				<button 
-					style={menubuttonstyle}
+					className="official-menu-buttonstyle"
 					onClick={() => handleToUpdate('A1')}>
-					<TCText
-						englishtext={"Home"} 
-						spanishtext={"Casa"} 
-						langprefs={this.props.langprefs} >
-					</TCText>
+					DICE
 				</button>
 
 				<button 
-					style={menubuttonstyle}
-					onClick={() => handleToUpdate('C1')}>
-					<TCText
-						englishtext={"Services"} 
-						spanishtext={"Servicios"} 
-						langprefs={this.props.langprefs} >
-					</TCText>
-				</button>
-
-				<button 
-					style={menubuttonstyle}
-					onClick={() => handleToUpdate('E1')}>
-					<TCText
-						englishtext={"Specials"} 
-						spanishtext={"Especiales"} 
-						langprefs={this.props.langprefs} >
-					</TCText>
-				</button>
-
-				<button 
-					style={menubuttonstyle}
-					onClick={() => handleToUpdate('G1')}>
-					<TCText
-						englishtext={"Directions"} 
-						spanishtext={"Direcciones"} 
-						langprefs={this.props.langprefs} >
-					</TCText>
-				</button>
-
-				<button 
-					style={menubuttonstyle}
-					onClick={() => handleToUpdate('D1')}>
-					<TCText
-						englishtext={"Testimonials"} 
-						spanishtext={"Testimonios"} 
-						langprefs={this.props.langprefs} >
-					</TCText>
-				</button>
-
-				<button 
-					style={menubuttonstyle}
-					onClick={() => handleToUpdate('F1')}>
-					<TCText
-						englishtext={"Appointments"} 
-						spanishtext={"Equipo"} 
-						langprefs={this.props.langprefs} >
-					</TCText>
-				</button>
-
-				<button 
-					style={menubuttonstyle}
+					className="official-menu-buttonstyle"
 					onClick={() => handleToUpdate('B1')}>
-					<TCText
-						englishtext={"About Us"} 
-						spanishtext={"Sobre nosotros"} 
-						langprefs={this.props.langprefs} >
-					</TCText>
+					TEXT
 				</button>
 
 				<button 
-					style={menubuttonstyle}
-					onClick={() => handleToUpdate('H1')}>
-					<TCText
-						englishtext={"Employment"} 
-						spanishtext={"Empleo"} 
-						langprefs={this.props.langprefs} >
-					</TCText>
+					className="official-menu-buttonstyle"
+					onClick={() => handleToUpdate('C1')}>
+					INFO
 				</button>
+
 				</span>
 			</div>
 		);
 	}
 }
-const menubuttonstyle = {
-	/*
-	float:"left", 
-	*/
-	height:"30px", 
-	backgroundColor:"#e1c699", 
-	marginLeft:"10px",
-	borderRadius:"10px",
-};
 
 export default MenuBar;

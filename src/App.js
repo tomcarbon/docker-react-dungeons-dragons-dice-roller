@@ -1,17 +1,21 @@
 /******************************************************
- * App.js TCC 20191201
+ * docker-react-dungeons-dragons-dice-roller
+ * App.js TCC 20200119
+ * Getting Started, see Nav.js in the components directory (Navigation),
+ * which navigates to one of three Screens which can be found in the /Screens directory:
+ *       A1.js -- Dice Screen
+ *       B1.js -- Private Messages/Notes Screen
+ *       C1.js -- Information Screen
  * ********************************************************/
 import React from 'react';
-import MyHeader from "./components/MyHeader";
-import MyTrailer from "./components/MyTrailer";
 import MenuBar from "./components/MenuBar";
 import Nav from "./components/Nav";
+import "./css/site.css";
 
 export default class App extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = { 
-			language_preference: "english",
 			dest: 'A1',
 		};
 	}
@@ -21,33 +25,17 @@ export default class App extends React.Component {
 		this.setState({dest:a});
 	}
 
-	languageToUpdate(a){
-		/* variable passed from language buttons located at MyHeader.js */
-		this.setState({language_preference:a});
-	}
-
 	render() {
 	  var handleToUpdate = this.handleToUpdate;
-	  var languageToUpdate = this.languageToUpdate;
 	  return (
-		  <div >
-			<MyHeader 
-		  		langprefs={this.state.language_preference} 
-		  		languageToUpdate={languageToUpdate.bind(this)}
-		  	/>
-		  
+		  <div className="official-background-color">
 			<MenuBar 
 		  		handleToUpdate={handleToUpdate.bind(this)} 
-		  		langprefs={this.state.language_preference}
 		  	/>
 
 		  	<Nav 	
 		  		dest={this.state.dest} 
-		  		langprefs={this.state.language_preference} 
 		  	/>
-
-		  	<MyTrailer />
-
 		  </div>
 	  );
 	}

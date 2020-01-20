@@ -1,6 +1,6 @@
 {
-  "short_name": "website-starter",
-  "name": "docker-react-website-starter",
+  "short_name": "DnD-Dice-Roller",
+  "name": "docker-react-dungeons-dragons-dice-roller",
   "icons": [
     {
       "src": "favicon.ico",

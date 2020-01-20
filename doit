@@ -1,10 +1,10 @@
 #!/bin/bash
-echo "[DOIT] Welcome to the quicker docker builder for "sample react website on localhost!""
-read -p "Press b to build, r to run or n/q to quit, and hit enter: " rc
+echo "[DOIT] Welcome to the quicker docker builder for docker-react-dungeons-dragons-dice-roller website running on localhost!"
+read -p "Press b to build, r to run or n/q to quit, and hit enter (after you 'run', wait a few seconds then go to 'localhost' on your browser): " rc
 case "$rc" in
-	b)  docker build -t docker-react-website-starter .;;
+	b)  docker build -t docker-react-dungeons-dragons-dice-roller .;;
 	r)  echo "Did you remember to stop the previously running job?"
-		docker run -td -p 80:3000 docker-react-website-starter ;;
+		docker run -td -p 80:3000 docker-react-dungeons-dragons-dice-roller;;
 	n) exit;;
 	q) exit;;
 esac

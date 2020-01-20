@@ -1,0 +1,98 @@
+.official-background-color {
+	background: 	rgba(66,13,9,1);
+}
+
+.official-body {
+	min-height: 89vh;
+	text-align: center;
+}
+
+.official-menubar {
+	height: 10vh;
+}
+
+.official-menu-buttonstyle {
+	height: 30px;
+	background: 	rgba(1,50,32,1);
+	color:		orange;
+	margin-top:	10px;
+	margin-left:	10px;
+	border-radius: 	10px;
+	border-color:	darkblue;
+	font-weight:	bold;
+}
+
+.official-cleardie-buttonstyle {
+	height: 25px;
+	background: 	rgba(1,50,32,1);
+	color:		white;
+	margin-top:	10px;
+	margin-left:	10px;
+	border-radius: 	10px;
+	border-color:	darkblue;
+	font-weight:	normal;
+}
+
+.official-roll-buttonstyle {
+	height: 	6vh;
+	background: 	rgba(1,50,32,1);
+	color:		darkred;
+	margin-top:	10px;
+	margin-left:	10px;
+	border-radius: 	20px;
+	border-color:	darkblue;
+	font-weight:	bolder;
+}
+.offical-logo {
+	position: absolute;
+	top:  		0px;
+	right: 		10px;
+	width: 		auto;
+	height: 	20vh;
+}
+
+
+.official-textarea {
+	width: 80%;
+	height: 40vh;
+	background: rgba(255,203,164,1);
+	font-size: 32px;
+	font-weight: bolder;
+	border: 	2px solid black;
+	border-radius:	10px;
+	text-align: center;
+	resize: none;
+}
+
+/*
+.official-die {
+	width: 100%;
+	height: 10vh;
+	background: rgba(0,0,164,1);
+	font-size: 32px;
+	font-weight: bolder;
+	border: 	2px solid black;
+	border-radius:	10px;
+	text-align: left;
+	resize: none;
+}
+*/
+
+.official-diceimage {
+	height:		10vh;
+}
+
+.official-roll-result-display {
+	height:		10vh;
+	background:	rgba(200,200,200,1);
+	color:		white;
+	border-radius:	20px;
+}
+
+.offical-text-clear-button {
+	background: rgba(155,103,064,1);
+	width:		15%;
+	height:		5vh;
+	color:		green;
+}
+
