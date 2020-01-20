@@ -1,5 +1,5 @@
 
-**DOCKER-REACT-DUNGEONS-DRAGONS-DICE-ROLLER** (... and a little more...)
+**DOCKER-REACT-DUNGEONS-DRAGONS-DICE-ROLLER** (and notepad)
 
 ******************************************************************************
 
