@@ -5,7 +5,7 @@
 
 SCREENSHOTS: [link](https://imgur.com/a/VnovNsb)
 
-TLDR: This 'website' has a GUI and is meant to assist the D&D Dungeon Master with Rolling the Dice. Also this application has a notepad feature which facilitates sending private messages to player/charcters. 
+TLDR: This 'website' has a GUI and is meant to assist the D&D Dungeon Master with Rolling the Dice. Also this application has a notepad feature which facilitates sending private messages to player/charcters. Should work on most mobile devices.
 
 ******************************************************************************
 
