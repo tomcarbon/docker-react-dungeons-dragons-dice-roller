@@ -1,5 +1,5 @@
 /*******************************************
-* C1.js -- Services
+* C1.js -- Information
 * *****************************************/
 import React from "react";
 import "../css/site.css";

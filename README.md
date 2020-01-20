@@ -14,7 +14,7 @@ This is a D&D Dice Rolling website that runs from a docker container on localhos
 The program is easy to install if you're running linux: first install docker. Then run the 'doit' script (options b, then r). Finally, after a minute, check localhost on your browser.
 
 **Notes**
-1) The first time is probably going to take a while (maybe 20-30m on a raspberry pi3), and the install may even appear to hang after the "Happy hacking! Done in xx.xxs." messages. Hang in there. After the first time things should go much quicker.
+1) The first time is probably going to take several minutes, and the install may even appear to hang after the "Happy hacking! Done in xx.xxs." messages. Hang in there. After the first time things should go much quicker. Also, the first time, if you get a timeout error (esp. with yarn install), run option 'b' again and that should resolve the issue.
 2) After running the container, make sure to give yarn a few seconds to start up the server, before checking the output on your browser at localhost.
 3) 'doit' is a LINUX script. If you are not running linux then deconstruct this script to determine your build and run docker commands. 
 
