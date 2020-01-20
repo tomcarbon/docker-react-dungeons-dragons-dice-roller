@@ -11,7 +11,7 @@ class C1 extends React.Component {
           <div className="official-background-color official-body" >
 		<h2 >About this Program</h2>
 		<hr style={{width:"90%"}} />
-		<h4>Use the DICE section to role different dice - d4, d6, d8, d10 (x2), d12, d20</h4>
+		<h4>Use the DICE section to roll different dice - d4, d6, d8, d10 (x2), d12, d20</h4>
 		<h4>Use the TEXT section to quietly display private messages to a player/character.</h4>
 		<hr style={{width:"90%"}} />
 		<h5>
