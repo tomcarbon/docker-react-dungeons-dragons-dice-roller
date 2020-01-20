@@ -34,7 +34,7 @@ class Die extends React.Component {
                                         marginTop:      "10px",
                                         marginLeft:     "5%",
                                         textAlign:"left",
-                                        width:"80%",
+                                        width:"90%",
                                         height:"70px",
                                         background:"rgba(0,0,0,0.5)",
                                         borderRadius:"20px",
