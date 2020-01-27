@@ -11,7 +11,7 @@ Screenshots: [link](https://imgur.com/a/VnovNsb)
 
 This website application has a mobile-friendly GUI and provides the user (e.g.: D&D Dungeon Master) with a virtual set of D&D Dice. Also, this program has a simple general-purpose notepad with large, easy-to-read font.
 
-This application runs from a docker container on localhost port 80, using node, npm, yarn, react. The docker container uses an installation of Ubuntu 18.04 with several common tools (such as byobu and vim) installed. 
+This application runs from a docker container on localhost port 80, using node, npm, yarn, react, react-bootstrap (width<400px OK). The docker container uses an installation of Ubuntu 18.04 with several common tools (such as byobu and vim) installed. 
 
 The dice are: d20, d12, d10, d10 (x10), d8, d6, d4.
 
@@ -29,6 +29,6 @@ The program is easy to install if you're running linux: first install docker. Th
 
 This D&D Dice Roller application was built using the [docker-react-website starter](https://github.com/tomcarbon/docker-react-website-starter).
 
-*(this page last updated: 20200121)*
+*(this page last updated: 20200127)*
 
 DTCarbon6cWX1f5YTjidDrpEnypoatsrH8

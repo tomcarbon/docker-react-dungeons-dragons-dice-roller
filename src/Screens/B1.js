@@ -4,6 +4,7 @@
 import React from "react";
 import "../css/site.css";
 import TextArea from "../components/TextArea";
+import Container from "react-bootstrap/Container";
 
 class B1 extends React.Component {
 
@@ -33,16 +34,23 @@ class B1 extends React.Component {
 
 	render() {
 		return (
-			<div className="official-background-color official-body" >
+			<Container className="official-background-color official-body" >
+
 				<h2>Private Messages / Notes</h2>
+			
+				<hr />
 
 				<TextArea updateTextArea={this.updateTextArea} textMsg={this.state.textMsg} >
 				</TextArea>
-				<p></p>
+
+				<hr />
+			
 				<button 
 					onClick={this.clearContents} 
-					className="official-menu-buttonstyle">CLEAR</button> 
-			</div>
+					className="official-menu-buttonstyle">CLEAR
+				</button> 
+
+			</Container>
 		);
 	}
 }

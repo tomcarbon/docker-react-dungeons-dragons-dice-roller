@@ -39,20 +39,16 @@ export class  RollButton extends React.Component {
 				rand = "00";
 			}
 		}
+		console.log(this.props.diceType + " was rolled. Result: " + rand + ".");
 		this.props.updateRandValue(rand);
-
 	}
 
 	render () {
 		return (
 			<div style={{
-                                float:"left",
-                                marginLeft:"1%",
-                                height:"70px",
-                                width:"65px",
                                 background:"rgba(0,0,0,0)",
                                 textAlign:"center",
-                                fontSize:"5vh"
+                                fontSize:"20px"
                         }}>
 				<button 
 					className="official-roll-buttonstyle"

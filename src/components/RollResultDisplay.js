@@ -16,15 +16,14 @@ export class  RollResultDisplay extends React.Component {
                 return (
                         <div 
                                 style={{
-                                        float:"left",
-                                        marginLeft:"1%",
+					marginTop: "5px",
                                         height:"60px", 
                                         width:"60px",
                                         background:"rgba(0,0,0,0.5)",
                                         color:z,
                                         textAlign:"center",
                                         verticalAlign:"middle",
-                                        fontSize:"50px",
+                                        fontSize:"40px",
                                         borderRadius: "10px"
                                 }}>
                                 {this.props.diceResult}

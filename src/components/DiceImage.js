@@ -3,17 +3,17 @@
  * ****************************************/
 import React from 'react';
 import "../css/site.css";
+import Container from "react-bootstrap/Container";
 
 export class  DiceImage extends React.Component {
 	render () {
 		return (
-			<div style={{width: "80px", float:"left"}}>
-				<img 
-					style={{height:"60px", marginLeft:"1vh",  marginTop:"5px"}}
+			<Container>
+				<img 	className="official-diceimage" 
 					src={require('../images/' + this.props.diceFile) } 
-					alt="bad." 
+					alt="offline" 
 				/>
-			</div>
+			</Container>
 		);
 	}
 }

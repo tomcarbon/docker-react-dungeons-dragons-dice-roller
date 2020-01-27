@@ -8,11 +8,8 @@ export class  DiceTypeDisplay extends React.Component {
 	render () {
 		return (
 			<div style={{
-				float:"left",
-				marginLeft:"1%",
-				marginTop: "3vh",
-				height:"7vh", 
-				width:"6%", 
+				marginTop: "20px",
+				height:"30px", 
 				background:"rgba(0,0,0,0)", 
 				color:"white", 
 				textAlign:"center",

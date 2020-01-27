@@ -3,8 +3,9 @@
 }
 
 .official-body {
-	min-height: 89vh;
-	text-align: center;
+	min-height: 	89vh;
+	text-align: 	center;
+	color:		orange;	
 }
 
 .official-menubar {
@@ -23,33 +24,36 @@
 }
 
 .official-cleardie-buttonstyle {
-	height: 25px;
+	position: 	relative;
+	top:		20px;
+	height: 35px;
 	background: 	rgba(1,50,32,1);
 	color:		white;
-	margin-top:	10px;
-	margin-left:	10px;
 	border-radius: 	10px;
 	border-color:	darkblue;
 	font-weight:	normal;
 }
 
 .official-roll-buttonstyle {
-	height: 	6vh;
+	position:	relative;
+	right:		20px;
+	height: 	35px;
 	background: 	rgba(1,50,32,1);
 	color:		darkred;
-	margin-top:	10px;
+	margin-top:	20px;
 	margin-left:	10px;
 	border-radius: 	20px;
 	border-color:	darkblue;
 	font-weight:	bolder;
 }
-.offical-logo {
-	position: absolute;
-	top:  		0px;
-	right: 		10px;
-	width: 		auto;
-	height: 	20vh;
+.offical-logo1 {
+	max-width: 100%;
 }
+
+.offical-logo2 {
+	max-width: 100%;
+}
+
 
 
 .official-textarea {
@@ -64,6 +68,14 @@
 	resize: none;
 }
 
+.official-die {
+	margin-top:      10px;
+	text-align:	left;
+	width:		auto;
+	min-height:	70px;
+	background:	rgba(0,0,0,0.5);
+	border-radius:	20px;
+}
 /*
 .official-die {
 	width: 100%;
@@ -79,11 +91,14 @@
 */
 
 .official-diceimage {
-	height:		10vh;
+	position:	relative;
+	top:		5px;
+	left:		-15px;
+	height:		60px;
 }
 
 .official-roll-result-display {
-	height:		10vh;
+	height:		auto;
 	background:	rgba(200,200,200,1);
 	color:		white;
 	border-radius:	20px;

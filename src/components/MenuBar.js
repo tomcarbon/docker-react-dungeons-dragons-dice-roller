@@ -2,7 +2,6 @@
  * MenuBar.js
  * ****************************************/
 import React from 'react';
-import Logo1 from './Logo1';
 import "../css/site.css";
 
 class MenuBar extends React.Component {
@@ -11,7 +10,6 @@ class MenuBar extends React.Component {
 		var handleToUpdate = this.props.handleToUpdate;
 		return (
 			<div className="official-background-color official-menubar" >
-				<Logo1 />
 				<span>
 				<button 
 					className="official-menu-buttonstyle"
@@ -28,7 +26,7 @@ class MenuBar extends React.Component {
 				<button 
 					className="official-menu-buttonstyle"
 					onClick={() => handleToUpdate('C1')}>
-					INFO
+					ABOUT
 				</button>
 
 				</span>

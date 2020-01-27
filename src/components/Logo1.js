@@ -3,14 +3,22 @@
  * ****************************************/
 import React from 'react';
 
-export function  Logo1 () {
-	return (
-	<img 
-		style={{pointerEvents:'none'}}
-		className="offical-background-color offical-logo" 
-		src={require('../images/logo1.png') } alt="bad." 
-	/>
-	);
+class Logo1 extends React.Component {
+	/*
+        constructor(props) {
+		super(props);
+	}
+	*/
+
+	render() {
+		return (
+			<img hidden={this.props.eyeOpen} 
+				style={{pointerEvents:'none'}}
+				className="offical-background-color offical-logo1" 
+				src={require('../images/logo1.png') } alt="offline" 
+			/>
+		);
+	}
 }
 
 export default Logo1;
