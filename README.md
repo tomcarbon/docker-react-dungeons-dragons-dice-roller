@@ -3,6 +3,8 @@
 
 ******************************************************************************
 
+This repository contains the inner workings of [DungeonsDragonsDiceRoller.com](http://dungeonsdragonsdiceroller.com). 
+
 Screenshots: [link](https://imgur.com/a/VnovNsb)
 
 ******************************************************************************
@@ -24,6 +26,10 @@ The program is easy to install if you're running linux: first install docker. Th
 2) After running the container, make sure to give yarn about a minute to start up the server, before checking the output on your browser at localhost.
 3) 'doit' is a LINUX script. If you are not running linux then deconstruct this script to determine your build and run docker commands. 
 4) If you have node/npm installed and do not want to run docker, from the docker-react-dungeons-dragons-dice-roller directory run 'npm install' (or yarn install), followed by 'npm start' (or yarn start).
+5) If you're curious about the back-end used to support this website, this docker container is running on an AWS 'micro' instance of Ubuntu 18.04. Once you're SSHed into your EC2 instance, run the following commands, and (if your HTTP port 80 is open with your security configuration), the application should appear at the public IP for the EC2 instance. From the shell in EC2:
+     a) git clone https://github.com/tomcarbon/docker-react-dungeons-dragons-dice-roller
+     b) sudo snap install docker
+     c) ./doit (options b, then (r or m))
 
 ************************************************
 
