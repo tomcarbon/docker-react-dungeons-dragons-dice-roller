@@ -9,14 +9,27 @@
 }
 
 .official-menubar {
-	height: 10vh;
+	height: 60px;
+}
+
+.official-menu-color {
+	background: 	rgba(35,8,5,1);
+}
+
+.official-menu-title-text {
+	position: 	absolute;
+	top: 		1px;
+	left:		10px;
+	font-size:	10px;
+	color:		gray;
+		
 }
 
 .official-menu-buttonstyle {
 	height: 30px;
 	background: 	rgba(1,50,32,1);
 	color:		orange;
-	margin-top:	10px;
+	margin-top:	20px;
 	margin-left:	10px;
 	border-radius: 	10px;
 	border-color:	darkblue;

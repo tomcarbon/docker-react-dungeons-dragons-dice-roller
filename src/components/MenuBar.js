@@ -9,7 +9,10 @@ class MenuBar extends React.Component {
 	render() {
 		var handleToUpdate = this.props.handleToUpdate;
 		return (
-			<div className="official-background-color official-menubar" >
+			<div className="official-menu-color official-menubar" >
+				<div className="official-menu-title-text">
+					D&D Dice Roller and DM Tool Kit
+				</div>
 				<span>
 				<button 
 					className="official-menu-buttonstyle"
@@ -23,8 +26,8 @@ class MenuBar extends React.Component {
 					TEXT
 				</button>
 
-				<button 
-					className="official-menu-buttonstyle"
+				<button className="official-menu-buttonstyle"
+					style={{float:"right", marginRight:"10px", color:"gray"}} 
 					onClick={() => handleToUpdate('C1')}>
 					ABOUT
 				</button>

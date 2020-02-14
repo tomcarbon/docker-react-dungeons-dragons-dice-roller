@@ -70,8 +70,8 @@ class C1 extends React.Component {
 
 				<hr />
 				<h5>
-					This application is available for free on 
-					<a href="https://github.com/tomcarbon/docker-react-dungeons-dragons-dice-roller"> github </a>
+					More information can be found 
+					<a href="https://github.com/tomcarbon/docker-react-dungeons-dragons-dice-roller"> here </a>
 					.
 				</h5>
 

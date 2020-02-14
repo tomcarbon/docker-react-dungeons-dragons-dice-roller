@@ -3,7 +3,7 @@
 
 ******************************************************************************
 
-This repository contains the inner workings of [DungeonsDragonsDiceRoller.com](http://dungeonsdragonsdiceroller.com). 
+This repository contains the inner workings of [DungeonsDragonsDiceRoller.com](https://dungeonsdragonsdiceroller.com). 
 
 Screenshots: [link](https://imgur.com/a/VnovNsb)
 
