@@ -2,9 +2,10 @@
  * Nav -- navigation for the site
  *******************************************************************/
 import React from 'react';
-import A1 from "../Screens/A1"
-import B1 from "../Screens/B1"
-import C1 from "../Screens/C1"
+import A1 from "../Screens/A1"  // Dice
+import B1 from "../Screens/B1"  // Text
+import C1 from "../Screens/C1"  // about
+import D1 from "../Screens/D1"	// word streamer
 
 
 class Nav extends React.Component {
@@ -36,6 +37,10 @@ class Nav extends React.Component {
 		} else if (this.props.dest === 'C1') {
 			return (
 				<C1 />
+			);
+		} else if (this.props.dest === 'D1') {
+			return (
+				<D1 />
 			);
 		} else {
 			console.info("Unexpected value of " + this.props.dest + "'. Resetting to A1");

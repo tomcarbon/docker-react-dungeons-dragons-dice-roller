@@ -26,6 +26,12 @@ class MenuBar extends React.Component {
 					TEXT
 				</button>
 
+				<button 
+					className="official-menu-buttonstyle"
+					onClick={() => handleToUpdate('D1')}>
+					WORDSTREAM
+				</button>
+
 				<button className="official-menu-buttonstyle"
 					style={{float:"right", marginRight:"10px", color:"gray"}} 
 					onClick={() => handleToUpdate('C1')}>
