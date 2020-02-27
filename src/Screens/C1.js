@@ -58,8 +58,11 @@ class C1 extends React.Component {
 						<Logo2 eyeClosed={this.state.eyeOpen}/>
 					</Col>
 				</Row>
+
 				<hr />
 				<h2 >About this Program</h2>
+				<hr />
+				<hr />
 
 
 				<h4>Use the DICE section to roll different dice - d4, d6, d8, d10 (x2), d12, d20</h4>
@@ -67,8 +70,9 @@ class C1 extends React.Component {
 				<hr />
 
 				<h4>Use the TEXT section to quietly display private messages to a player/character.</h4>
+				<hr />
 
-
+				<h4>Use the WORD STREAM section for random inspiration or for writer's block.</h4>
 				<hr />
 
 				<h5>
