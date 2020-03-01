@@ -81,7 +81,9 @@ class C1 extends React.Component {
 					.
 				</h5>
 				<hr />
-				<QRCelphone />
+				<div>
+					<p>Share: <QRCelphone/></p>
+				</div>
 
 			</Container>
 		);

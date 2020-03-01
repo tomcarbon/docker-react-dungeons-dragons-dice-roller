@@ -51,7 +51,7 @@ export class  RollButton extends React.Component {
                                 fontSize:"20px"
                         }}>
 				<button 
-					className="official-roll-buttonstyle"
+					className="official-roll-buttonstyle "
 					onClick={this.shoot}
 				>
 					ROLL

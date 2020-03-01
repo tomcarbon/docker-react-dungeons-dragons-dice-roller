@@ -8,21 +8,15 @@
 	color:		orange;	
 }
 
-.official-menubar {
-	height: 60px;
+
+.official-menu-window {
+	background: 	rgba(10,25,12,1.0);
+	border-radius:	14px;
+	padding-bottom:	5px;
 }
 
-.official-menu-color {
-	background: 	rgba(35,8,5,1);
-}
-
-.official-menu-title-text {
-	position: 	absolute;
-	top: 		1px;
-	left:		10px;
-	font-size:	10px;
-	color:		gray;
-		
+.special-font {
+	font-family:    'Princess Sofia';
 }
 
 .official-menu-buttonstyle {

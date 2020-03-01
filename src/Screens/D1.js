@@ -55,7 +55,7 @@ this.words2 = " pinky mouse is sad because said rodent has yet to see the world 
 				<h2>Word Stream</h2>
 			
 				<div className="word-streamer-box">
-					<div id="word-streamer">
+					<div id="word-streamer" className="special-font">
 					</div>
 				</div>
 

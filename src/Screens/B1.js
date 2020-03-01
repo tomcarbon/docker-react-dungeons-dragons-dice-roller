@@ -40,7 +40,7 @@ class B1 extends React.Component {
 			
 				<hr />
 
-				<TextArea updateTextArea={this.updateTextArea} textMsg={this.state.textMsg} >
+				<TextArea  updateTextArea={this.updateTextArea} textMsg={this.state.textMsg}>
 				</TextArea>
 
 				<hr />
