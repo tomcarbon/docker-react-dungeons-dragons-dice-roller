@@ -2,9 +2,19 @@
 * B1.js -- Private TextBox
 ********************************************/
 import React from "react";
+import styled from "styled-components";
 import "../css/site.css";
 import TextArea from "../components/TextArea";
 import Container from "react-bootstrap/Container";
+
+const HoverButton = styled.button`
+        :hover {
+		cursor: pointer;
+		position: relative;
+		top:  1px;
+		left: 1px;
+	}
+`
 
 class B1 extends React.Component {
 
@@ -45,10 +55,10 @@ class B1 extends React.Component {
 
 				<hr />
 			
-				<button 
+				<HoverButton 
 					onClick={this.clearContents} 
 					className="official-menu-buttonstyle">CLEAR
-				</button> 
+				</HoverButton> 
 
 			</Container>
 		);

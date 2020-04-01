@@ -2,8 +2,18 @@
 * ClearDie.js
 *****************************************/
 import React from 'react';
+import styled from "styled-components";
 import "../css/site.css";
 import Container from "react-bootstrap/Container";
+
+const HoverButton = styled.button`
+        :hover {
+		cursor: pointer;
+		position: relative;
+		top:  21px;
+		left: 1px;
+	}
+`
 
 export class  ClearDie extends React.Component {
 
@@ -20,12 +30,9 @@ export class  ClearDie extends React.Component {
                                 fontSize:"20px",
 				zIndex:"1"
                         }}>
-				<button 
-					onClick={this.cleardie}
-					className="official-cleardie-buttonstyle"
-				>
+				<HoverButton onClick={this.cleardie} className="official-cleardie-buttonstyle" >
 					clear
-				</button>
+				</HoverButton>
 			</Container>
 		);
 	}

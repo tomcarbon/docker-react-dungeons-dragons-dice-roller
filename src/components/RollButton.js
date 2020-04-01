@@ -3,7 +3,17 @@
 			<button className="official-roll-buttonstyle">ROLL</button>
  * ****************************************/
 import React from 'react';
+import styled from "styled-components";
 import "../css/site.css";
+
+const HoverButton = styled.button`
+        :hover {
+		cursor: pointer;
+		position: relative;
+		top:  1px;
+		right: 19px;
+	}
+`
 
 export class  RollButton extends React.Component {
 	shoot = () => {
@@ -50,12 +60,12 @@ export class  RollButton extends React.Component {
                                 textAlign:"center",
                                 fontSize:"20px"
                         }}>
-				<button 
+				<HoverButton 
 					className="official-roll-buttonstyle "
 					onClick={this.shoot}
 				>
 					ROLL
-				</button>
+				</HoverButton>
 			</div>
 		);
 	}

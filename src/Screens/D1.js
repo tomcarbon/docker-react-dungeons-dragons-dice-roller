@@ -2,9 +2,19 @@
 * D1.js -- Random Words Stream
 ********************************************/
 import React from "react";
+import styled from "styled-components";
 import "../css/site.css";
 import TextArea from "../components/TextArea";
 import Container from "react-bootstrap/Container";
+
+const HoverButton = styled.button`
+        :hover {
+		cursor: pointer;
+		position: relative;
+		top:  1px;
+		left: 1px;
+	}
+`
 
 class D1 extends React.Component {
 
@@ -59,10 +69,10 @@ this.words2 = " pinky mouse is sad because said rodent has yet to see the world 
 					</div>
 				</div>
 
-				<button 
+				<HoverButton 
 					onClick={this.clearContents} 
 					className="official-menu-buttonstyle">CLEAR
-				</button> 
+				</HoverButton> 
 
 
 			</Container>

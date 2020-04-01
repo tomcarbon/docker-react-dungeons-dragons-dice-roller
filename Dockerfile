@@ -28,7 +28,9 @@ COPY README.md /app/docker-react-dungeons-dragons-dice-roller/
 #install react-bootstrap
 WORKDIR /app/docker-react-dungeons-dragons-dice-roller
 RUN yarn add react-bootstrap
+RUN yarn add styled-components
 RUN yarn install
+RUN yarn add react-modal
 
 #run the server
 EXPOSE 80
