@@ -25,12 +25,6 @@ The program is easy to install if you're running linux: first install docker. Th
 3) 'doit' is a LINUX script. If you are not running linux then deconstruct this script to determine your build and run docker commands. 
 4) If you have node/npm installed and do not want to run docker, from the docker-react-dungeons-dragons-dice-roller directory run 'npm install' (or yarn install), followed by 'npm start' (or yarn start).
 
-     a) git clone https://github.com/tomcarbon/docker-react-dungeons-dragons-dice-roller
-
-     b) sudo snap install docker
-
-     c) sudo ./doit (options b, then (r or m))
-
 ************************************************
 
 This D&D Dice Roller application was built using the [docker-react-website starter](https://github.com/tomcarbon/docker-react-website-starter).
