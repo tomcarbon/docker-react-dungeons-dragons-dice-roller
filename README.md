@@ -1,5 +1,14 @@
 
+
+
 **DOCKER-REACT-DUNGEONS-DRAGONS-DICE-ROLLER** (and notepad)
+
+**This version will be deprecated**, although at this time it is still in dual maintainance with the node version. The problem with this docker version: Node 8x is intstalled onto the 18.04 ubuntu docker image. The yarn.lock file is very important for holding this project together. I might update this docker/ubuntu/node/react on request, but seeing that no one will probably ever read this I might as well just prioritze it lower. 
+
+Here's the node version: https://github.com/tomcarbon/react-dungeons-dragons-dice-roller 
+
+******************************************************************************
+
 
 ******************************************************************************
 
