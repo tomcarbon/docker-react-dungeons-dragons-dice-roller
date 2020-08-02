@@ -19,6 +19,7 @@ RUN yarn create react-app docker-react-dungeons-dragons-dice-roller
 COPY src/ /app/docker-react-dungeons-dragons-dice-roller/src/
 COPY public/ /app/docker-react-dungeons-dragons-dice-roller/public/
 COPY package.json /app/docker-react-dungeons-dragons-dice-roller/
+COPY yarn.lock /app/docker-react-dungeons-dragons-dice-roller/
 
 # just copy these things to the container for safekeeping
 COPY Dockerfile /app/docker-react-dungeons-dragons-dice-roller/
