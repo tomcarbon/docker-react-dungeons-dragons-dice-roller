@@ -9,7 +9,7 @@ This repository contains the inner workings of [DungeonsDragonsDiceRoller.com](h
 
 **About This Program**
 
-This website application has a mobile-friendly GUI and provides the user (e.g.: D&D Dungeon Master) with a virtual set of D&D Dice. Also, this program has a simple general-purpose notepad with large, easy-to-read font. Also there is a "Word Streamer", for random inspiration.
+This website application has a mobile-friendly GUI and provides the user (e.g.: D&D Dungeon Master) with a virtual set of D&D Dice. Also, this program has a simple general-purpose notepad with large, easy-to-read font. Also there is a "Word Streamer", for random inspiration. Also there's a handy shopping list tool.
 
 This application runs from a docker container on localhost port 80, using node, npm, yarn, react, react-bootstrap (width<400px OK). The docker container uses an installation of Ubuntu 18.04 with several common tools (such as byobu and vim) installed. 
 
